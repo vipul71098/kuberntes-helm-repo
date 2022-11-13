@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/vipul71098/kuberntes-helm-repo.git
     targetRevision: HEAD
-    path: dev
+    path: overlays/dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
